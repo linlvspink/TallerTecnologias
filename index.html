@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Chill Guy Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-$END$
+
+<!-- Barra de navegación -->
+<table width="100%" class="nav">
+    <tr>
+        <td align="center">
+
+            <h2>Chill Guy Store</h2>
+
+            <button onclick="cargarSeccion('inicio')">Inicio</button>
+            <button onclick="cargarSeccion('productos')">Productos</button>
+            <button onclick="cargarSeccion('ubicacion')">Ubicación</button>
+            <button onclick="cargarSeccion('contacto')">Contacto</button>
+
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<!-- Contenido dinámico -->
+<div id="contenido" align="center">
+    <!-- JS inserta contenido aquí -->
+</div>
+
+<script src="main.js"></script>
+
 </body>
 </html>
